@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+   
+     <div>
+<form>
+
+ <h1>Formulario</h1>
+
+ <label for="Nome">Digite seu nome: </label>
+ <input type="text" id="Nome" required>
+
+ <label for="Número">Digite seu Número :</label>
+ <input type="number" id="Número" required>
+ 
+ <label for="E-mail">Digite seu E-mail :</label>
+ <input type="email" id="E-mail" required>
+
+ <label for="mensagem">Digite sua mensagem :</label>
+ <textarea type="mensagem" mensagem="mensagem" required></textarea> 
+
+<button type="button" onclick="enviar()">Enviar</button>
+
+ </form>
+</div>
+
+<script>
+    function enviar(){
+        window.alert("formulario enviado com sucesso.")
+    }
+</script>
+
+</body>
+</html>

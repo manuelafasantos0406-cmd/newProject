@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    ;
+    font-size: 25px;
+}
+button{
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
