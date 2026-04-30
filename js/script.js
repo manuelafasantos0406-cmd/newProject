@@ -1,3 +1,3 @@
-function mensagem(){
-    window.alert("Estou aprendendo JS");
+function confirmar(){
+ return window.confirm ("Realmente deseja ir para a outra página?")
 }
