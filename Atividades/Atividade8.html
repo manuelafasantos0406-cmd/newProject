@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> LET soma de dois números</title>
+</head>
+<body>
+    <h1> LET soma de dois números</h1>
+    
+    <label for="">Digite o primeiro número :</label>
+    <input type="number" id="número01">
+
+    
+    <label for="">Digite o segundo número :</label>
+    <input type="number" id="número02">
+
+    <button onclick="somar()">clique aqui para somar</button>
+
+    <p id="resultado"></p>
+
+    <script>
+        function somar() {
+            let número01= Number(document.getElementById("número01").value);
+            let número02= Number(document.getElementById("número02").value);
+
+           let números = número01 + número02 ;
+
+            document.getElementById("resultado").innerHTML = "O resultado é: " + números;
+
+        }
+
+    </script>
+</body>
+</html>
